@@ -16,6 +16,14 @@ I’ll be solving **LeetCode problems** daily and updating my journey here.
 
 ✔️ **Progress Status:** Completed  
 
+### ✅ Day 2
+**Problems Solved:**
+- [Contains Duplicate – LeetCode 217](https://leetcode.com/problems/contains-duplicate/)  
+- [Missing Number – LeetCode 268](https://leetcode.com/problems/missing-number/)  
+- [First Unique Character in a String – LeetCode 387](https://leetcode.com/problems/first-unique-character-in-a-string/)  
+
+✔️ **Status:** Done  
+
 ---
 
 ## 🏆 Inspiration
