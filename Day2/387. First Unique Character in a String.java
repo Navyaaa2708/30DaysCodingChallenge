@@ -8,7 +8,6 @@ class Solution {
             if(hash[s.charAt(i)-'a']==1){
                 return i;
             }
-        }
-        return -1;
+        } return -1;
     }
 }
