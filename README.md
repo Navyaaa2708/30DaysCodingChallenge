@@ -24,6 +24,14 @@ I’ll be solving **LeetCode problems** daily and updating my journey here.
 
 ✔️ **Status:** Done  
 
+### ✅ Day 3
+**Problems Solved:**
+- [Palindrome Number – LeetCode 9](https://leetcode.com/problems/palindrome-number/)  
+- [Roman to Integer – LeetCode 13](https://leetcode.com/problems/roman-to-integer/)  
+- [Length of Last Word – LeetCode 58](https://leetcode.com/problems/length-of-last-word/)  
+
+✔️ **Status:** Done  
+
 ---
 
 ## 🏆 Inspiration
