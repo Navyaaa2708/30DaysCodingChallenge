@@ -33,7 +33,7 @@ I’ll be solving **LeetCode problems** daily and updating my journey here.
 ✔️ **Status:** Done  
 
 ### ✅ Day 4  
-## ✅ Problems Solved  
+**Problems Solved:**
 ### 1️⃣ [LeetCode #136: Single Number](https://leetcode.com/problems/single-number/)  
 - **Concept Used**: Bitwise XOR  
 - **Logic**: XOR-ing all numbers cancels out pairs, leaving the unique number.  
