@@ -44,7 +44,30 @@ I’ll be solving **LeetCode problems** daily and updating my journey here.
 
 ### 3️⃣ [LeetCode #350: Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)  
 - **Concept Used**: Sorting + Two-pointer  
-- **Logic**: Traverse both sorted arrays and collect common elements.  
+- **Logic**: Traverse both sorted arrays and collect common elements.
+
+
+### ✅ Day 5 
+**Problems Solved:**
+### 1. [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) (LeetCode #14)
+- **Problem:** Find the longest common prefix among an array of strings.
+- **Approach:**  
+  - Compare characters of strings vertically.
+  - Stop when characters mismatch or one string ends.
+- **Key Concept:** String comparison and prefix trimming.
+### 2. [Happy Number](https://leetcode.com/problems/happy-number/) (LeetCode #202)
+- **Problem:** Determine if a number is a "happy number" (repeatedly replace the number with the sum of the squares of its digits until it becomes 1).
+- **Approach:**  
+  - Use a `HashSet` to track visited numbers and detect cycles.
+  - If number reaches `1` → Happy Number.
+- **Key Concept:** Cycle detection using HashSet
+### 3. [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) (LeetCode #191)
+- **Problem:** Count the number of `1` bits in an integer’s binary representation.
+- **Approach:**  
+  - Use **Brian Kernighan’s Algorithm**: repeatedly turn off the rightmost `1` bit using `n & (n - 1)`.
+- **Key Concept:** Bit manipulation.
+
+
 
 ---
 
