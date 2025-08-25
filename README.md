@@ -67,6 +67,25 @@ I’ll be solving **LeetCode problems** daily and updating my journey here.
   - Use **Brian Kernighan’s Algorithm**: repeatedly turn off the rightmost `1` bit using `n & (n - 1)`.
 - **Key Concept:** Bit manipulation.
 
+### ✅ Day 6  
+**Problems Solved:**
+### 1. [Valid Anagram](https://leetcode.com/problems/valid-anagram/) (LeetCode #242)  
+- **Problem:** Check if two strings are anagrams of each other.  
+- **Approach:**  
+  - Sort both strings or use a frequency counter.  
+- **Key Concept:** HashMap / Sorting.
+### 2. [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) (LeetCode #217)  
+- **Problem:** Check if any element appears more than once in an array.  
+- **Approach:**  
+  - Use a HashSet to track seen elements.  
+- **Key Concept:** HashSet for duplicate detection.
+### 3. [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) (LeetCode #125)  
+- **Problem:** Check if a string is a palindrome (ignoring non-alphanumeric and case).  
+- **Approach:**  
+  - Use two pointers: left & right, skip non-alphanumeric, compare characters.  
+- **Key Concept:** Two-pointer technique + String sanitization.
+
+
 
 
 ---
