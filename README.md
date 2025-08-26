@@ -85,7 +85,19 @@ I’ll be solving **LeetCode problems** daily and updating my journey here.
   - Use two pointers: left & right, skip non-alphanumeric, compare characters.  
 - **Key Concept:** Two-pointer technique + String sanitization.
 
+### ✅ Day 7  
+**Problems Solved:**
+1️⃣ LeetCode #6: Zigzag Conversion  
+**Concept Used:** Simulation + String Manipulation  
+**Logic:** Place characters in a zigzag pattern by tracking the current row and direction, then combine rows to form the result.  
 
+2️⃣ LeetCode #443: String Compression  
+**Concept Used:** Two-pointer technique + In-place array modification  
+**Logic:** Use one pointer to traverse the array and another to build the compressed version by counting consecutive characters.  
+
+3️⃣ LeetCode #179: Largest Number  
+**Concept Used:** Custom Sorting  
+**Logic:** Sort numbers as strings with a custom comparator (compare `a+b` vs `b+a`) to form the largest concatenated number.  
 
 
 ---
