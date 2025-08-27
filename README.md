@@ -99,6 +99,19 @@ I’ll be solving **LeetCode problems** daily and updating my journey here.
 **Concept Used:** Custom Sorting  
 **Logic:** Sort numbers as strings with a custom comparator (compare `a+b` vs `b+a`) to form the largest concatenated number.  
 
+### ✅ Day 8  
+**Problems Solved:**
+## 🔹 LeetCode #2: Add Two Numbers
+- Problem Link: [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)  
+- Approach: Used iterative addition with carry handling, constructing the result as a new linked list.
+
+## 🔹 LeetCode #206: Reverse Linked List
+- Problem Link: [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)  
+- Approach: Iteratively reversed pointers while traversing the list using `prev`, `curr`, and `next`.
+
+## 🔹 LeetCode #496: Next Greater Element I
+- Problem Link: [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)  
+- Approach: Used a monotonic stack and hashmap to precompute the next greater element for each number.
 
 ---
 
