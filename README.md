@@ -113,6 +113,25 @@ I’ll be solving **LeetCode problems** daily and updating my journey here.
 - Problem Link: [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)  
 - Approach: Used a monotonic stack and hashmap to precompute the next greater element for each number.
 
+
+### ✅ Day 9 
+**Problems Solved:**
+### 1️⃣ [LeetCode #232: Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)
+- **Concept Used:** Two Stacks  
+- **Logic:** One stack for input, one for output. Shift elements only when needed.  
+- **Complexity:** Amortized O(1) per operation.  
+
+### 2️⃣ [LeetCode #933: Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/)
+- **Concept Used:** Queue (Sliding Window)  
+- **Logic:** Keep timestamps in a queue and remove those older than 3000ms.  
+- **Complexity:** O(1) amortized per `ping` operation.  
+
+### 3️⃣ [LeetCode #622: Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
+- **Concept Used:** Array + Modular Arithmetic  
+- **Logic:** Use `front`, `rear`, and modulo to implement circular behavior.  
+- **Complexity:** O(1) for all operations.  
+
+
 ---
 
 ## 🏆 Inspiration
