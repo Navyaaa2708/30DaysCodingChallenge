@@ -132,6 +132,15 @@ I’ll be solving **LeetCode problems** daily and updating my journey here.
 - **Complexity:** O(1) for all operations.  
 
 
+✅ Day 10
+LeetCode #187: Repeated DNA Sequences
+- Approach: Rolling hash with bitmasking to track repeated substrings.
+LeetCode #408: Valid Word Abbreviation
+- Approach: Parsed abbreviations carefully handling digit groups.
+LeetCode #680: Valid Palindrome II
+- Approach: Two-pointer method with helper allowing one mismatch removal.
+
+
 ---
 
 ## 🏆 Inspiration
