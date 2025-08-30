@@ -141,6 +141,16 @@ LeetCode #408: Valid Word Abbreviation
 LeetCode #680: Valid Palindrome II
 - Approach: Two-pointer method with helper allowing one mismatch removal.
 
+### ✅ Day 11
+**Problems Completed:**
+### 🔹 LeetCode #303: Range Sum Query – Immutable
+- Approach: Built a prefix sum array for O(1) queries, storing cumulative sums at each index.
+
+### 🔹 LeetCode #724: Find Pivot Index
+- Approach: Computed total sum, then iterated while maintaining prefix sum to check balance condition.
+
+### 🔹 LeetCode #1480: Running Sum of 1D Array
+- Approach: Iteratively accumulated running totals to construct the result array.
 
 ---
 
