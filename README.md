@@ -152,6 +152,20 @@ LeetCode #680: Valid Palindrome II
 ### 🔹 LeetCode #1480: Running Sum of 1D Array
 - Approach: Iteratively accumulated running totals to construct the result array.
 
+
+### ✅ Day 12
+**Problems Completed:**
+### 1. [Valid Perfect Square (Problem 367)](https://leetcode.com/problems/valid-perfect-square/)
+- **Valid Perfect Square:** Used binary search to avoid brute-force iteration, reducing complexity.
+### 2. [First Bad Version (Problem 278)](https://leetcode.com/problems/first-bad-version/)
+- **First Bad Version:** Learned how to minimize API calls by narrowing down with binary search.
+### 3. [Peak Index in a Mountain Array (Problem 852)](https://leetcode.com/problems/peak-index-in-a-mountain-array/)
+- **Peak Index in a Mountain Array:** Applied binary search logic in a modified way to find the peak efficiently.
+
+
+
+
+   
 ---
 
 ## 🏆 Inspiration
