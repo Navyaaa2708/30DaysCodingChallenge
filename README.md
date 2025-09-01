@@ -164,6 +164,16 @@ LeetCode #680: Valid Palindrome II
 
 
 
+### ✅ Day 13
+**Problems Completed:**
+-   [1365 -- How Many Numbers Are Smaller Than the Current
+    Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)\
+-   [561 -- Array
+    Partition](https://leetcode.com/problems/array-partition/)\
+-   [1773 -- Count Items Matching a
+    Rule](https://leetcode.com/problems/count-items-matching-a-rule/)
+
+
 
    
 ---
