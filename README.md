@@ -174,6 +174,23 @@ LeetCode #680: Valid Palindrome II
     Rule](https://leetcode.com/problems/count-items-matching-a-rule/)
 
 
+### ✅ Day 14  
+**Problems Solved:**  
+### 1️⃣ [LeetCode #441: Arranging Coins](https://leetcode.com/problems/arranging-coins/)  
+- **Concept Used:** Math + Binary Search  
+- **Logic:** Find maximum complete staircase rows by solving quadratic equation.  
+- **Complexity:** O(1) using formula.  
+
+### 2️⃣ [LeetCode #1011: Capacity to Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)  
+- **Concept Used:** Binary Search on Answer  
+- **Logic:** Find minimum ship capacity by checking feasibility with binary search.  
+- **Complexity:** O(n log sum(weights)).  
+
+### 3️⃣ [LeetCode #410: Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)  
+- **Concept Used:** Binary Search + Greedy Partitioning  
+- **Logic:** Split array into `k` subarrays minimizing the largest subarray sum.  
+- **Complexity:** O(n log sum(nums)).  
+
 
    
 ---
