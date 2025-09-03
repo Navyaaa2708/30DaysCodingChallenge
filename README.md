@@ -192,6 +192,21 @@ LeetCode #680: Valid Palindrome II
 - **Complexity:** O(n log sum(nums)).  
 
 
+### ✅ Day 15  
+**Problems Solved:**  
+### 1️⃣ [LeetCode #1047: Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)  
+- **Concept Used:** Stack / StringBuilder as stack  
+- **Logic:** Traverse string and remove last char if it matches current, else append.  
+- **Complexity:** O(n).  
+### 2️⃣ [LeetCode #856: Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/)  
+- **Concept Used:** Stack  
+- **Logic:** Push scores on stack, combine based on `()` → 1 or `(A)` → `2*A`.  
+- **Complexity:** O(n).  
+### 3️⃣ [LeetCode #1209: Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)  
+- **Concept Used:** Stack with counts  
+- **Logic:** Track frequency of consecutive characters and remove substring when count == k.  
+- **Complexity:** O(n).  
+
    
 ---
 
