@@ -207,7 +207,25 @@ LeetCode #680: Valid Palindrome II
 - **Logic:** Track frequency of consecutive characters and remove substring when count == k.  
 - **Complexity:** O(n).  
 
-   
+
+  ### ✅ Day 16  
+**Problems Solved:**  
+
+### 1️⃣ [LeetCode #860: Lemonade Change](https://leetcode.com/problems/lemonade-change/)  
+- **Concept Used:** Greedy  
+- **Logic:** Track count of $5 and $10 bills. Give change using higher denominations first to preserve smaller bills.  
+- **Complexity:** O(n).  
+
+### 2️⃣ [LeetCode #134: Gas Station](https://leetcode.com/problems/gas-station/)  
+- **Concept Used:** Greedy + Prefix Sum  
+- **Logic:** Traverse stations while maintaining fuel balance. If balance drops below zero, reset start point.  
+- **Complexity:** O(n).  
+
+### 3️⃣ [LeetCode #406: Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/)  
+- **Concept Used:** Sorting + Insertion  
+- **Logic:** Sort by height (desc), then insert each person at index = k.  
+- **Complexity:** O(n²) in worst case due to list insertions.  
+
 ---
 
 ## 🏆 Inspiration
