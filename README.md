@@ -226,6 +226,25 @@ LeetCode #680: Valid Palindrome II
 - **Logic:** Sort by height (desc), then insert each person at index = k.  
 - **Complexity:** O(n²) in worst case due to list insertions.  
 
+
+### ✅ Day 17  
+**Problems Solved:**  
+
+### 1️⃣ [LeetCode #61: Rotate List](https://leetcode.com/problems/rotate-list/)  
+- **Concept Used:** Linked List + Two Pointers  
+- **Logic:** Find length, connect tail to head (circular list), then break at correct position after `(len - k % len)` steps.  
+- **Complexity:** O(n).  
+
+### 2️⃣ [LeetCode #24: Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)  
+- **Concept Used:** Iterative Linked List Manipulation  
+- **Logic:** Swap every two adjacent nodes by adjusting pointers using a dummy node.  
+- **Complexity:** O(n).  
+
+### 3️⃣ [LeetCode #138: Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)  
+- **Concept Used:** Hashing / In-place Node Copying  
+- **Logic:** Clone nodes in-between originals, assign random pointers, then separate original and copied lists.  
+- **Complexity:** O(n).  
+
 ---
 
 ## 🏆 Inspiration
