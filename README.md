@@ -229,7 +229,6 @@ LeetCode #680: Valid Palindrome II
 
 ### ✅ Day 17  
 **Problems Solved:**  
-
 ### 1️⃣ [LeetCode #61: Rotate List](https://leetcode.com/problems/rotate-list/)  
 - **Concept Used:** Linked List + Two Pointers  
 - **Logic:** Find length, connect tail to head (circular list), then break at correct position after `(len - k % len)` steps.  
@@ -244,6 +243,25 @@ LeetCode #680: Valid Palindrome II
 - **Concept Used:** Hashing / In-place Node Copying  
 - **Logic:** Clone nodes in-between originals, assign random pointers, then separate original and copied lists.  
 - **Complexity:** O(n).  
+
+### ✅ Day 18  
+**Problems Solved:**  
+### 1️⃣ [LeetCode #703: Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)  
+- **Concept Used:** Min-Heap  
+- **Logic:** Maintain a min-heap of size `k`. The root always represents the kth largest element.  
+- **Complexity:** O(log k) per insertion.  
+
+### 2️⃣ [LeetCode #973: K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)  
+- **Concept Used:** Max-Heap  
+- **Logic:** Keep a max-heap of size `k` with distances. Pop the farthest when size exceeds `k`.  
+- **Complexity:** O(n log k).  
+
+### 3️⃣ [LeetCode #295: Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)  
+- **Concept Used:** Two Heaps (Max-Heap + Min-Heap)  
+- **Logic:** Balance two heaps: max-heap for lower half, min-heap for upper half. Median depends on heap sizes.  
+- **Complexity:** O(log n) for insertion, O(1) for median retrieval.  
+
+
 
 ---
 
