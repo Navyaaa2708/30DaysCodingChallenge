@@ -261,6 +261,22 @@ LeetCode #680: Valid Palindrome II
 - **Logic:** Balance two heaps: max-heap for lower half, min-heap for upper half. Median depends on heap sizes.  
 - **Complexity:** O(log n) for insertion, O(1) for median retrieval.  
 
+### ✅ Day 19  
+**Problems Solved:**  
+1. **Remove Duplicates from Sorted Array**  
+   🔗 [LeetCode #26](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)  
+   - Used **two-pointer technique** to shift unique values forward.  
+   - Achieved **O(n) time complexity**.  
+
+2. **Merge Sorted Array**  
+   🔗 [LeetCode #88](https://leetcode.com/problems/merge-sorted-array/)  
+   - Handled merging **two sorted arrays in-place**.  
+   - Utilized **swapping + sorting approach** for correctness.  
+
+3. **Intersection of Two Arrays II**  
+   🔗 [LeetCode #350](https://leetcode.com/problems/intersection-of-two-arrays-ii/)  
+   - Solved using **two pointers after sorting both arrays**.  
+   - Constructed result array efficiently.  
 
 
 ---
