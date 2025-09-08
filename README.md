@@ -279,6 +279,23 @@ LeetCode #680: Valid Palindrome II
    - Constructed result array efficiently.  
 
 
+### ✅ Day 20
+**Problems Solved:**  
+1. **Number of Recent Calls**  
+   🔗 [LeetCode #933](https://leetcode.com/problems/number-of-recent-calls/description/)  
+   - Implemented a **queue-based sliding window** to track recent requests.  
+   - Efficiently removed outdated calls outside the 3000ms range.  
+
+2. **Implement Stack using Queues**  
+   🔗 [LeetCode #225](https://leetcode.com/problems/implement-stack-using-queues/description/)  
+   - Simulated a **stack (LIFO)** using two **queues**.  
+   - Ensured top and pop operations behave correctly with reordering.  
+
+3. **Design Linked List**  
+   🔗 [LeetCode #707](https://leetcode.com/problems/design-linked-list/description/)  
+   - Built a **custom linked list** from scratch.  
+   - Supported operations: get, add at head, add at tail, add at index, and delete at index.  
+
 ---
 
 ## 🏆 Inspiration
