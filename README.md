@@ -296,6 +296,24 @@ LeetCode #680: Valid Palindrome II
    - Built a **custom linked list** from scratch.  
    - Supported operations: get, add at head, add at tail, add at index, and delete at index.  
 
+
+### ✅ Day 21
+**Problems Solved:**  
+1. **Subsets II**  
+   🔗 [LeetCode #90](https://leetcode.com/problems/subsets-ii)  
+   - Generated all possible subsets of an array that may contain duplicates.  
+   - Used sorting + recursion + set to **avoid duplicate subsets**.  
+
+2. **Combination Sum II**  
+   🔗 [LeetCode #40](https://leetcode.com/problems/combination-sum-ii)  
+   - Found unique combinations where numbers sum to a target.  
+   - Used **backtracking with pruning** and skipped duplicates smartly.  
+
+3. **Permutations II**  
+   🔗 [LeetCode #47](https://leetcode.com/problems/permutations-ii)  
+   - Generated all unique permutations of numbers that may contain duplicates.  
+   - Applied **boolean visited array** and duplicate skipping conditions.  
+
 ---
 
 ## 🏆 Inspiration
