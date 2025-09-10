@@ -314,6 +314,22 @@ LeetCode #680: Valid Palindrome II
    - Generated all unique permutations of numbers that may contain duplicates.  
    - Applied **boolean visited array** and duplicate skipping conditions.  
 
+### ✅ Day 22
+**Problems Solved:** 
+1. **Binary Tree Inorder Traversal**  
+   🔗 [LeetCode #94](https://leetcode.com/problems/binary-tree-inorder-traversal/)  
+   - Used a **stack** to simulate recursion.  
+   - Traversed in order: Left ➝ Root ➝ Right.  
+
+2. **Binary Tree Preorder Traversal**  
+   🔗 [LeetCode #144](https://leetcode.com/problems/binary-tree-preorder-traversal/)  
+   - Iterative solution with a **stack**.  
+   - Traversed in order: Root ➝ Left ➝ Right.  
+
+3. **Binary Tree Postorder Traversal**  
+   🔗 [LeetCode #145](https://leetcode.com/problems/binary-tree-postorder-traversal/)  
+   - Used **stack + linked list (addFirst)** to reverse the process.  
+   - Traversed in order: Left ➝ Right ➝ Root.  
 ---
 
 ## 🏆 Inspiration
