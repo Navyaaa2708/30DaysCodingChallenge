@@ -329,7 +329,26 @@ LeetCode #680: Valid Palindrome II
 3. **Binary Tree Postorder Traversal**  
    🔗 [LeetCode #145](https://leetcode.com/problems/binary-tree-postorder-traversal/)  
    - Used **stack + linked list (addFirst)** to reverse the process.  
-   - Traversed in order: Left ➝ Right ➝ Root.  
+   - Traversed in order: Left ➝ Right ➝ Root.
+
+
+### ✅ Day 23
+**Problems Solved:** 
+1. **Binary Tree Level Order Traversal (LeetCode 102)**  
+   🔗 [Problem Link](https://leetcode.com/problems/binary-tree-level-order-traversal/)  
+   - Implemented BFS using a queue.  
+   - Collected node values level by level.  
+
+2. **Maximum Depth of Binary Tree (LeetCode 104)**  
+   🔗 [Problem Link](https://leetcode.com/problems/maximum-depth-of-binary-tree/)  
+   - Used recursion.  
+   - Depth = `1 + max(leftDepth, rightDepth)`  
+
+3. **Minimum Depth of Binary Tree (LeetCode 111)**  
+   🔗 [Problem Link](https://leetcode.com/problems/minimum-depth-of-binary-tree/)  
+   - Special case: when one child is `null`, we must take the non-null child’s depth.  
+   - Depth = `1 + min(leftDepth, rightDepth)`  
+
 ---
 
 ## 🏆 Inspiration
