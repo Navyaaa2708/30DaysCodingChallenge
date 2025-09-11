@@ -27,3 +27,15 @@ class Solution {
         return res;
     }
 }
+
+//Recursive Approach
+class Solution {
+    LinkedList<Integer> res=new LinkedList<>();
+    public List<Integer> postorderTraversal(TreeNode root) {
+        if(root==null) return res;
+        postorderTraversal(root.left);
+        postorderTraversal(root.right);
+        res.add(root.val);
+        return res;
+    }
+}
