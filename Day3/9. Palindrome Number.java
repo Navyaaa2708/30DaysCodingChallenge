@@ -1,4 +1,4 @@
-//using conversion to string
+//using conversion to string 
 class Solution {
     public boolean isPalindrome(int x) {
         if(x<0) return false;
@@ -15,18 +15,16 @@ class Solution {
         return true;
     }
 }
-//normal method
-class Solution{
-    public boolean isPalindrome(int x){
-        if(x<0)return false;
-        int temp=x,rev=0;
-        while(x!=0){
-            int rem=x%10;
-            if(rev>Integer.MAX_VALUE/10||(rev==Integer.MAX_VALUE/10&&rem>7))return false;
-            if(rev<Integer.MIN_VALUE/10||(rev==Integer.MIN_VALUE/10&&rem<-8))return false;
+//normal method and optimal
+class Solution {
+    public boolean isPalindrome(int x) {
+        int temp = x;
+        int rev = 0;
+        while(temp>0){
+            int rem = temp%10;
             rev=rev*10+rem;
-            x/=10;
+            temp/=10;
         }
-        return rev==temp;
+        return x==rev;
     }
 }
