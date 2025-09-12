@@ -347,7 +347,27 @@ LeetCode #680: Valid Palindrome II
 3. **Minimum Depth of Binary Tree (LeetCode 111)**  
    🔗 [Problem Link](https://leetcode.com/problems/minimum-depth-of-binary-tree/)  
    - Special case: when one child is `null`, we must take the non-null child’s depth.  
-   - Depth = `1 + min(leftDepth, rightDepth)`  
+   - Depth = `1 + min(leftDepth, rightDepth)`
+
+
+### ✅ Day 24
+**Problems Solved:** 
+1. **Diameter of Binary Tree (LeetCode 543)**  
+   🔗 [Problem Link](https://leetcode.com/problems/diameter-of-binary-tree/)  
+   - Used DFS recursion.  
+   - Diameter is the max of `leftHeight + rightHeight` at each node.  
+
+2. **Symmetric Tree (LeetCode 101)**  
+   🔗 [Problem Link](https://leetcode.com/problems/symmetric-tree/)  
+   - Recursively checked mirror property:  
+     - Left child of one tree == Right child of the other.  
+     - Right child of one tree == Left child of the other.  
+
+3. **Same Tree (LeetCode 100)**  
+   🔗 [Problem Link](https://leetcode.com/problems/same-tree/)  
+   - Trees are the same if:  
+     - Both nodes are null.  
+     - Values match and left/right subtrees are identical.  
 
 ---
 
