@@ -356,6 +356,21 @@ LeetCode #680: Valid Palindrome II
    - If `val < root.val` → search left.  
    - If `val > root.val` → search right.  
 
+### ✅ Day 26
+**Problems Solved:** 
+1. **Max Area of Island (LeetCode 695)**  
+   🔗 [Problem Link](https://leetcode.com/problems/max-area-of-island/)  
+   - Used **DFS** to count connected land cells.  
+   - Updated the maximum area found.  
+2. **Island Perimeter (LeetCode 463)**  
+   🔗 [Problem Link](https://leetcode.com/problems/island-perimeter/)  
+   - Each land cell contributes `+4`.  
+   - Checked for **shared edges** with top/left cells to subtract 2.  
+3. **Keys and Rooms (LeetCode 841)**  
+   🔗 [Problem Link](https://leetcode.com/problems/keys-and-rooms/)  
+   - Traversed graph using **DFS with keys**.  
+   - Verified if all rooms could be visited.  
+
 ---
 
 ## 🏆 Inspiration
