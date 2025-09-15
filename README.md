@@ -369,7 +369,22 @@ LeetCode #680: Valid Palindrome II
 3. **Keys and Rooms (LeetCode 841)**  
    🔗 [Problem Link](https://leetcode.com/problems/keys-and-rooms/)  
    - Traversed graph using **DFS with keys**.  
-   - Verified if all rooms could be visited.  
+   - Verified if all rooms could be visited.
+  
+### ✅ Day 27
+**Problems Solved:** 
+  1. **Is Graph Bipartite? (LeetCode 785)**  
+   🔗 [Problem Link](https://leetcode.com/problems/is-graph-bipartite/)  
+   - Used **DFS coloring** approach.  
+   - Ensured no two adjacent nodes had the same color.  
+2. **Graph Valid Tree (LeetCode 261)**  
+   🔗 [Problem Link](https://leetcode.com/problems/graph-valid-tree/)  
+   - Verified **n-1 edges** for tree property.  
+   - Checked connectivity using DFS.  
+3. **Number of Connected Components in an Undirected Graph (LeetCode 323)**  
+   🔗 [Problem Link](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)  
+   - Built adjacency list.  
+   - Counted connected components using DFS traversal. 
 
 ---
 
