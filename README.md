@@ -386,6 +386,17 @@ LeetCode #680: Valid Palindrome II
    - Built adjacency list.  
    - Counted connected components using DFS traversal. 
 
+### ✅ Day 28
+**Problems Solved:** 
+### 1. [Word Break (139)](https://leetcode.com/problems/word-break/)  
+- Learned how to use **DP + substring checking**.  
+- Key idea: check if a prefix can be broken into words from the dictionary.  
+### 2. [Target Sum (494)](https://leetcode.com/problems/target-sum/)  
+- Converted into a **subset sum problem**.  
+- Used DP to count possible ways.  
+### 3. [Coin Change (322)](https://leetcode.com/problems/coin-change/)  
+- Solved using **bottom-up DP**.  
+- Key learning: choose the minimum number of coins to reach the target amount.  
 ---
 
 ## 🏆 Inspiration
