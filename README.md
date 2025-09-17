@@ -396,7 +396,24 @@ LeetCode #680: Valid Palindrome II
 - Used DP to count possible ways.  
 ### 3. [Coin Change (322)](https://leetcode.com/problems/coin-change/)  
 - Solved using **bottom-up DP**.  
-- Key learning: choose the minimum number of coins to reach the target amount.  
+- Key learning: choose the minimum number of coins to reach the target amount.
+
+### ✅ Day 29  
+**Problems Solved:**  
+### 1️⃣ [LeetCode #62: Unique Paths](https://leetcode.com/problems/unique-paths/)  
+- **Concept Used:** Dynamic Programming (Grid DP)  
+- **Logic:** Count all unique paths from top-left to bottom-right by accumulating paths from top and left cells. Optimized using a 1D DP array.  
+- **Complexity:** O(m × n) time, O(n) space  
+### 2️⃣ [LeetCode #329: Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)  
+- **Concept Used:** DFS + Memoization  
+- **Logic:** Explore all 4 directions from each cell and store the length of the longest increasing path in a memoization matrix to avoid recomputation.  
+- **Complexity:** O(m × n) time, O(m × n) space  
+### 3️⃣ [LeetCode #64: Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)  
+- **Concept Used:** Bottom-Up Dynamic Programming  
+- **Logic:** Update each cell with the minimum sum to reach it from the top-left, using values from the top and left neighbors.  
+- **Complexity:** O(m × n) time, O(1) extra space (modifying the input grid)  
+
+
 ---
 
 ## 🏆 Inspiration
