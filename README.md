@@ -413,6 +413,20 @@ LeetCode #680: Valid Palindrome II
 - **Logic:** Update each cell with the minimum sum to reach it from the top-left, using values from the top and left neighbors.  
 - **Complexity:** O(m × n) time, O(1) extra space (modifying the input grid)  
 
+### ✅ Day 30 
+**Problems Solved:**
+### 1. [Unique Paths II (63)](https://leetcode.com/problems/unique-paths-ii/)  
+- Learned to handle **grid paths with obstacles** using DP.  
+- If start or end has an obstacle, no path exists.  
+### 2. [Triangle (120)](https://leetcode.com/problems/triangle/)  
+- Solved using **bottom-up DP**.  
+- Updated each row by adding the minimum path sum from the row below.  
+### 3. [Cheapest Flights Within K Stops (787)](https://leetcode.com/problems/cheapest-flights-within-k-stops/)  
+- Applied **Bellman-Ford algorithm** with at most `k+1` relaxations.  
+- Tracked the minimum cost to reach the destination with stop limits.  
+## Learnings  
+- Practiced **Dynamic Programming** in grids and triangles.  
+- Reinforced **graph algorithms** with edge relaxations.  
 
 ---
 
